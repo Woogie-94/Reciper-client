@@ -50,7 +50,7 @@ const LoginModal = (): JSX.Element => {
 		if (!emailCheck) {
 			setErrorMessage(true);
 		} else {
-			axios.post(`${process.env.REACT_APP_SERVER_URL}/sendEmail`, { email });
+			axios.post(`http://localhost:4000/sendEmail`, { email });
 			setErrorMessage(false);
 			setLoginMessage(true);
 		}

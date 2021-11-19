@@ -16,7 +16,7 @@ const ProjectCardList = (): JSX.Element => {
 	const getProjectList = async () => {
 		const { accessToken, loginType } = getLoginInfo();
 
-		const response = await axios.get(`${process.env.REACT_APP_SERVER_URL}/project`, {
+		const response = await axios.get(`http://localhost:4000/project`, {
 			headers: { authorization: `Bearer ${accessToken}`, loginType },
 		});
 

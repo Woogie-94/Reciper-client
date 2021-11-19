@@ -63,7 +63,7 @@ const LandingSecond = (): JSX.Element => {
 				</TopLeftMessage>
 
 				<ImageWrapper {...animatedItem.questions}>
-					<img src={`${process.env.REACT_APP_SERVER_URL}/images/questions.svg`} />
+					<img src={`http://localhost:4000/images/questions.svg`} />
 				</ImageWrapper>
 			</TopWrapper>
 
@@ -94,20 +94,20 @@ const LandingSecond = (): JSX.Element => {
 					<BottomImageWrapper>
 						<SpeechBubbleWrapper>
 							<img
-								src={`${process.env.REACT_APP_SERVER_URL}/images/part2-1.png`}
+								src={`http://localhost:4000/images/part2-1.png`}
 								style={{ opacity: `${(scrollPosition - 1100) / 50}`, transition: '0.5s' }}
 							/>
 							<img
-								src={`${process.env.REACT_APP_SERVER_URL}/images/part2-2.png`}
+								src={`http://localhost:4000/images/part2-2.png`}
 								style={{ opacity: `${(scrollPosition - 1200) / 50}`, transition: '0.5s' }}
 							/>
 							<img
-								src={`${process.env.REACT_APP_SERVER_URL}/images/part2-3.png`}
+								src={`http://localhost:4000/images/part2-3.png`}
 								style={{ opacity: `${(scrollPosition - 1300) / 50}`, transition: '0.5s' }}
 							/>
 						</SpeechBubbleWrapper>
 						<NaviImageWrapper {...animatedItem.navigation}>
-							<img src={`${process.env.REACT_APP_SERVER_URL}/images/navigation.svg`} />
+							<img src={`http://localhost:4000/images/navigation.svg`} />
 						</NaviImageWrapper>
 					</BottomImageWrapper>
 				</div>

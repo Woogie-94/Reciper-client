@@ -71,7 +71,7 @@ const LandingFifth = (): JSX.Element => {
 				</ServiceMenu>
 				<ServiceContent>
 					<RightComment {...ChatAnimatedItem.firstChat}>
-						<img src={`${process.env.REACT_APP_SERVER_URL}/images/part6-1.svg`} alt="첫번째 채팅 프로필사진" />
+						<img src={`http://localhost:4000/images/part6-1.svg`} alt="첫번째 채팅 프로필사진" />
 						<div>
 							<div>
 								<ChatUserName>Evan</ChatUserName>
@@ -83,7 +83,7 @@ const LandingFifth = (): JSX.Element => {
 						</div>
 					</RightComment>
 					<LeftComment {...ChatAnimatedItem.secondChat}>
-						<img src={`${process.env.REACT_APP_SERVER_URL}/images/part6-2.svg`} alt="두번째 채팅 프로필사진" />
+						<img src={`http://localhost:4000/images/part6-2.svg`} alt="두번째 채팅 프로필사진" />
 						<div>
 							<div>
 								<ChatUserName>James</ChatUserName>
@@ -96,7 +96,7 @@ const LandingFifth = (): JSX.Element => {
 						</div>
 					</LeftComment>
 					<RightComment {...ChatAnimatedItem.thirdChat}>
-						<img src={`${process.env.REACT_APP_SERVER_URL}/images/part6-3.svg`} alt="세번째 채팅 프로필사진" />
+						<img src={`http://localhost:4000/images/part6-3.svg`} alt="세번째 채팅 프로필사진" />
 						<div>
 							<div>
 								<ChatUserName>Olivia</ChatUserName>

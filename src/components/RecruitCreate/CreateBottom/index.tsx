@@ -55,7 +55,7 @@ const CreateBottom = (): JSX.Element => {
 					<CreateImageUpload>
 						<span>이미지 업로드</span>
 					</CreateImageUpload>
-					<img src={`${process.env.REACT_APP_SERVER_URL}/images/${uploadImage}`} />
+					<img src={`http://localhost:4000/images/${uploadImage}`} />
 				</CreateImageWrap>
 				<form encType="multipart/form-data">
 					<input

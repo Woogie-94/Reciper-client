@@ -36,7 +36,7 @@ const App = (): JSX.Element => {
 
 	const refreshRequest = useCallback(async () => {
 		const { accessToken, loginType } = getLoginInfo();
-		const response = await axios.get(`${process.env.REACT_APP_SERVER_URL}/newAccessToken`, {
+		const response = await axios.get(`http://localhost:4000/newAccessToken`, {
 			headers: {
 				authorization: `Bearer ${accessToken}`,
 				loginType,

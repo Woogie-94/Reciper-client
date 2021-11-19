@@ -7,7 +7,7 @@ import { loginDataType, loginRequestType, loginResponseDataType } from '../types
 export const loginRequest = createAsyncThunk(
 	'loginRequest',
 	async ({ data, endpoint }: { data: loginRequestType; endpoint: string }) => {
-		const response = await axios.post(`${process.env.REACT_APP_SERVER_URL}/${endpoint}`, data);
+		const response = await axios.post(`http://localhost:4000/${endpoint}`, data);
 		return response.data;
 	},
 );

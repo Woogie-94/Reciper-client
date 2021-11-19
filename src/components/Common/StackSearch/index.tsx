@@ -61,7 +61,7 @@ const StackSearch = (props: Props): JSX.Element => {
 		const { accessToken, loginType } = getLoginInfo();
 
 		const getStackData = async (): Promise<void> => {
-			const stackData = await axios.get(`${process.env.REACT_APP_SERVER_URL}/stacks`, {
+			const stackData = await axios.get(`http://localhost:4000/stacks`, {
 				headers: { authorization: `Bearer ${accessToken}`, loginType },
 			});
 

@@ -26,7 +26,7 @@ const RecruitCard = ({ data }: Props): JSX.Element => {
 	return (
 		<CardContainer to={`/recruit/${id}`}>
 			<CardImgContainer>
-				<img src={`${process.env.REACT_APP_SERVER_URL}/images/${uploadImage}`} />
+				<img src={`http://localhost:4000/images/${uploadImage}`} />
 			</CardImgContainer>
 			<CardInfoContainer>
 				<CardInfoTitle>{name}</CardInfoTitle>

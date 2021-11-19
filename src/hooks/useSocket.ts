@@ -18,7 +18,7 @@ const useSocket = (projectUrl: string, address: string): [Socket | undefined, ()
 	const connectSocket = () => {
 		if (!socket && loginInfo) {
 			const { accessToken, loginType } = JSON.parse(loginInfo);
-			const socket = io(`${process.env.REACT_APP_SERVER_URL}/${address}/${projectUrl}`, {
+			const socket = io(`http://localhost:4000/${address}/${projectUrl}`, {
 				transports: ['websocket'],
 				auth: {
 					token: accessToken,

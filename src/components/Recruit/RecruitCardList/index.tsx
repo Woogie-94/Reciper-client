@@ -40,12 +40,9 @@ const RecruitCardList = (): JSX.Element => {
 			setIsLoading(false);
 			setIsEmptyList(false);
 
-			const response = await axios.post(
-				`${process.env.REACT_APP_SERVER_URL}/filterRecruitList/${order}/${sortValue || '최신 순'}`,
-				{
-					searchStacksList: stackBucket,
-				},
-			);
+			const response = await axios.post(`http://localhost:4000/filterRecruitList/${order}/${sortValue || '최신 순'}`, {
+				searchStacksList: stackBucket,
+			});
 
 			setIsEnd(response.data.isEnd);
 

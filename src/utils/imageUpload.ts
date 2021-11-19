@@ -12,7 +12,7 @@ export const changeImage = async (
 
 	if (e.target.files) {
 		formData.append('file', e.target.files[0]);
-		const response = await axios.post(`${process.env.REACT_APP_SERVER_URL}/postImage`, formData, {
+		const response = await axios.post(`http://localhost:4000/postImage`, formData, {
 			headers: {
 				authorization: `Bearer ${accessToken}`,
 				loginType,
@@ -50,7 +50,7 @@ export const onDragUploadImage = async (
 		}
 	}
 
-	const response = await axios.post(`${process.env.REACT_APP_SERVER_URL}/postImage`, formData, {
+	const response = await axios.post(`http://localhost:4000/postImage`, formData, {
 		headers: {
 			authorization: `Bearer ${accessToken}`,
 			loginType,

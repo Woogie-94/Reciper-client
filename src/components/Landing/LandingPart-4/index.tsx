@@ -70,7 +70,7 @@ const LandingFourth = (): JSX.Element => {
 							</ServiceMenuCalendar>
 						</ServiceMenu>
 						<ServiceContent {...KanbanAnimatedItem.content}>
-							<img src={`${process.env.REACT_APP_SERVER_URL}/images/Kanbanboard.gif`} />
+							<img src={`http://localhost:4000/images/Kanbanboard.gif`} />
 						</ServiceContent>
 					</ServiceBackground>
 					<ServiceDescription>
@@ -128,7 +128,7 @@ const LandingFourth = (): JSX.Element => {
 							</ServiceMenuCalendar>
 						</ServiceMenu>
 						<ServiceContent {...CalendarAnimatedItem.content}>
-							<img src={`${process.env.REACT_APP_SERVER_URL}/images/Calendar.gif`} />
+							<img src={`http://localhost:4000/images/Calendar.gif`} />
 						</ServiceContent>
 					</ServiceBackground>
 				</CalendarWrapper>

@@ -61,7 +61,7 @@ const LandingSixth = (): JSX.Element => {
 					<TopPersonalCardWrapper>
 						<PersonalCard style={{ borderBottom: `${scrollPosition > 7350 ? 'none' : '1px solid #d6d6d8'}` }}>
 							<PersonalAvatar>
-								<img src={`${process.env.REACT_APP_SERVER_URL}/images/part6-1.svg`} alt={'개발하는 이미지1'} />
+								<img src={`http://localhost:4000/images/part6-1.svg`} alt={'개발하는 이미지1'} />
 							</PersonalAvatar>
 							<div
 								style={{
@@ -75,7 +75,7 @@ const LandingSixth = (): JSX.Element => {
 						</PersonalCard>
 						<PersonalCard style={{ borderBottom: `${scrollPosition > 7350 ? 'none' : '1px solid #d6d6d8'}` }}>
 							<PersonalAvatar>
-								<img src={`${process.env.REACT_APP_SERVER_URL}/images/part6-2.svg`} alt={'개발하는 이미지2'} />
+								<img src={`http://localhost:4000/images/part6-2.svg`} alt={'개발하는 이미지2'} />
 							</PersonalAvatar>
 							<div
 								style={{
@@ -89,7 +89,7 @@ const LandingSixth = (): JSX.Element => {
 						</PersonalCard>
 						<PersonalCard style={{ borderBottom: `${scrollPosition > 7350 ? 'none' : '1px solid #d6d6d8'}` }}>
 							<PersonalAvatar>
-								<img src={`${process.env.REACT_APP_SERVER_URL}/images/part6-3.svg`} alt={'개발하는 이미지3'} />
+								<img src={`http://localhost:4000/images/part6-3.svg`} alt={'개발하는 이미지3'} />
 							</PersonalAvatar>
 							<div
 								style={{
@@ -103,7 +103,7 @@ const LandingSixth = (): JSX.Element => {
 						</PersonalCard>
 						<PersonalCard style={{ borderBottom: `${scrollPosition > 7350 ? 'none' : '1px solid #d6d6d8'}` }}>
 							<PersonalAvatar>
-								<img src={`${process.env.REACT_APP_SERVER_URL}/images/part6-4.svg`} alt={'개발하는 이미지4'} />
+								<img src={`http://localhost:4000/images/part6-4.svg`} alt={'개발하는 이미지4'} />
 							</PersonalAvatar>
 							<div
 								style={{
@@ -117,7 +117,7 @@ const LandingSixth = (): JSX.Element => {
 						</PersonalCard>
 						<PersonalCard style={{ borderBottom: `${scrollPosition > 7350 ? 'none' : '1px solid #d6d6d8'}` }}>
 							<PersonalAvatar>
-								<img src={`${process.env.REACT_APP_SERVER_URL}/images/part6-5.svg`} alt={'개발하는 이미지5'} />
+								<img src={`http://localhost:4000/images/part6-5.svg`} alt={'개발하는 이미지5'} />
 							</PersonalAvatar>
 							<div
 								style={{
