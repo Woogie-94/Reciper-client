@@ -14,8 +14,8 @@ import { useParams } from 'react-router';
 
 import { ChatList, ChatZoneContainer, ChatDateHeader, DragOverZone } from './styles';
 
-import { DefaultEventsMap } from 'socket.io-client/build/typed-events';
 import { ChatDataType, ChatSectionType, ChatUpdateDataType } from '../../../types/types';
+import { DefaultEventsMap } from 'socket.io/dist/typed-events';
 
 export interface Props {
 	socket: Socket<DefaultEventsMap, DefaultEventsMap> | undefined;

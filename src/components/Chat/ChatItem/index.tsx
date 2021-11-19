@@ -30,7 +30,7 @@ import {
 	ChatWrapper,
 } from './styles';
 
-import { DefaultEventsMap } from 'socket.io-client/build/typed-events';
+import { DefaultEventsMap } from 'socket.io/dist/typed-events';
 import { ChatDataType, ChatUpdateDataType } from '../../../types/types';
 
 interface Props {
